@@ -33,7 +33,6 @@ When I fill all the mandatory details in form for four
 #And I click on Save button
 #Then I should see all the details saved in my application and DB
 
-
 Scenario Outline: Create four new employee using examples
 #Given I opened my application
 #Then I should see employee details page

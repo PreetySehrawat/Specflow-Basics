@@ -161,9 +161,9 @@ testRunner.When("I fill all the mandatory details in form for four", ((string)(n
         public virtual void CreateFourNewEmployeeUsingExamples(string name, string age, string phone, string email, string[] exampleTags)
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Create four new employee using examples", exampleTags);
-#line 37
+#line 36
 this.ScenarioSetup(scenarioInfo);
-#line 40
+#line 39
 testRunner.When(string.Format("I fill all the mandatory details in form {0}, {1} , {2} and {3}", name, age, phone, email), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
             this.ScenarioCleanup();
